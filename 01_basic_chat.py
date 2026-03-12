@@ -53,6 +53,7 @@ def estimate_cost(prompt: str, response_text: str) -> dict:
     Rough cost estimate (Gemini 1.5 Flash pricing as of 2025).
     Always verify current pricing at ai.google.dev/pricing
     """
+    print(GEMINI_FLASH)
     model = get_model(GEMINI_FLASH)
     input_tokens  = model.count_tokens(prompt).total_tokens
     output_tokens = model.count_tokens(response_text).total_tokens
