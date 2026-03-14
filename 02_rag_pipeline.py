@@ -27,6 +27,7 @@ class RAGResponse:
 
 
 # ── Stage 1: Chunking ──────────────────────────────────────────────────────
+#cbunking based on overlapping so that semantics wont last at the end and beginning 
 def chunk_text(text: str, chunk_size: int = 512, overlap: int = 64) -> list[str]:
     """
     Sliding-window character-level chunker.
