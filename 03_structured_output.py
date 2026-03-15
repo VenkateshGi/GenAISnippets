@@ -1,5 +1,6 @@
 """
 03_structured_output.py — Force Gemini to return validated JSON / Pydantic models
+Pydantic model is helpful in having structured output for any result
 Covers: JSON mode, Pydantic parsing, retry on invalid JSON, schema injection
 """
 import json
