@@ -1,6 +1,7 @@
 """
 01_basic_chat.py — Text generation & multi-turn conversation
 Covers: single-turn generation, system prompts, chat history, token counting
+Basic chat kind, simple prompt input, call LLM and respond answer.
 """
 import google.generativeai as genai
 from config import get_model, GEMINI_FLASH
