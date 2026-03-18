@@ -1,6 +1,7 @@
 """
 05_function_calling.py — Gemini Tool/Function Calling
 Covers: tool definition, tool execution loop, parallel tool calls, error handling
+Building tools and then using them for answering
 """
 import json
 import math
